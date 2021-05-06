@@ -123,15 +123,9 @@ describe('Lottery Contract', () => {
         const getPlayers = await lottery.methods.getPlayers().call({
             from: accounts[0]
         });
-
         assert.strictEqual(0, getPlayers.length)
 
-
-
     })
-    
-    
-
 
 });
 
